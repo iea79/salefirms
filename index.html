@@ -15,6 +15,7 @@
 	<script type="text/javascript" src="js/tab.js"></script>
 	<script type="text/javascript" src="js/modal.js"></script>
 	<script type="text/javascript" src="js/slick.js"></script>
+	<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
 	<script type="text/javascript" src="js/jquery.viewportchecker.js"></script>
 	<script type="text/javascript" src="js/function.js"></script>
 
@@ -60,13 +61,13 @@
 
 				<div class="first_screen_subtitle">Готовые ООО с директором по Москве через 60 минут</div>
 
-				<div class="first_screen_overtext">Курьерская доставка занимает 60 минут в приделах МКАД, в другие районы уточняйте сроки у менеджеров</div>
+				<div class="first_screen_overtext">Курьерская доставка занимает 60 минут в приеделах МКАД, в другие районы уточняйте сроки у менеджеров</div>
 
 				<button class="btn" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 
 				<div></div>
 
-				<a href="#" class="next_section"></a>
+				<a href="#sales" class="next_section"></a>
 
 			</div>
 			
@@ -89,7 +90,7 @@
 						<div class="sales_top_name">ООО без расчетного счёта</div>
 						<div class="sales_top_number">всего 28 000 <span class="rub">руб.</span></div>
 						<div class="sales_top_btn">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 							<div class="sales_top_btn_descr">при покупке от пяти шт.</div>
 						</div>
 					</div>
@@ -103,7 +104,7 @@
 						<div class="sales_top_name">Новые ООО с расчетным счетом в Альфа-Банке</div>
 						<div class="sales_top_number">всего 150 000 <span class="rub">руб.</span></div>
 						<div class="sales_top_btn">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 							<div class="sales_top_btn_descr"></div>
 						</div>
 					</div>
@@ -118,7 +119,7 @@
 						<div class="sales_top_number">всего 160 000 <span class="rub">руб.</span></div>
 						<div class="sales_top_btn">
 							<div class="sales_top_btn_descr">при покупке от двух шт.</div>
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 					<div class="sales_img">
@@ -159,7 +160,7 @@
 						<div class="price_title">Готовые фирмы <br>без расчётного счёта</div>
 						<div class="price_coast">35 000 <span class="rub">руб.</span></div>
 						<div class="price_descr">при покупке от 5 фирм <br>28 000 <span class="rub">руб.</span></div>
-						<button class="btn">Заказать</button>
+						<button class="btn" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 					</div>
 				</div>
 				<div class="grid__wrapper">
@@ -168,7 +169,7 @@
 						<div class="price_title">Готовые фирмы <br>с расчётным счётом</div>
 						<div class="price_coast">70 000 <span class="rub">руб.</span></div>
 						<div class="price_descr"></div>
-						<button class="btn">Заказать</button>
+						<button class="btn" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 					</div>
 				</div>
 				<div class="grid__wrapper">
@@ -177,7 +178,7 @@
 						<div class="price_title">Готовые фирмы <br>под заказ</div>
 						<div class="price_coast">индивидуально</div>
 						<div class="price_descr"></div>
-						<button class="btn">Заказать</button>
+						<button class="btn" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 					</div>
 				</div>
 			</div>
@@ -254,7 +255,7 @@
 							150 000 <span class="rub">руб.</span>
 						</div>
 						<div class="firms_tabs_box_last">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 					<div class="firms_tabs_box_item">
@@ -266,7 +267,7 @@
 							150 000 <span class="rub">руб.</span>
 						</div>
 						<div class="firms_tabs_box_last">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 					<div class="firms_tabs_box_item">
@@ -278,7 +279,7 @@
 							150 000 <span class="rub">руб.</span>
 						</div>
 						<div class="firms_tabs_box_last">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 					<div class="firms_tabs_box_item">
@@ -290,7 +291,7 @@
 							150 000 <span class="rub">руб.</span>
 						</div>
 						<div class="firms_tabs_box_last">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 				</div>
@@ -304,7 +305,7 @@
 							150 000 <span class="rub">руб.</span>
 						</div>
 						<div class="firms_tabs_box_last">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 					<div class="firms_tabs_box_item">
@@ -316,7 +317,7 @@
 							150 000 <span class="rub">руб.</span>
 						</div>
 						<div class="firms_tabs_box_last">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 				</div>
@@ -330,7 +331,7 @@
 							150 000 <span class="rub">руб.</span>
 						</div>
 						<div class="firms_tabs_box_last">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 					<div class="firms_tabs_box_item">
@@ -342,7 +343,7 @@
 							150 000 <span class="rub">руб.</span>
 						</div>
 						<div class="firms_tabs_box_last">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 					<div class="firms_tabs_box_item">
@@ -354,7 +355,7 @@
 							150 000 <span class="rub">руб.</span>
 						</div>
 						<div class="firms_tabs_box_last">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 				</div>
@@ -368,7 +369,7 @@
 							150 000 <span class="rub">руб.</span>
 						</div>
 						<div class="firms_tabs_box_last">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 				</div>
@@ -382,7 +383,7 @@
 							150 000 <span class="rub">руб.</span>
 						</div>
 						<div class="firms_tabs_box_last">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 				</div>
@@ -396,7 +397,7 @@
 							150 000 <span class="rub">руб.</span>
 						</div>
 						<div class="firms_tabs_box_last">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 					<div class="firms_tabs_box_item">
@@ -408,7 +409,7 @@
 							150 000 <span class="rub">руб.</span>
 						</div>
 						<div class="firms_tabs_box_last">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 					<div class="firms_tabs_box_item">
@@ -420,7 +421,7 @@
 							150 000 <span class="rub">руб.</span>
 						</div>
 						<div class="firms_tabs_box_last">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 					<div class="firms_tabs_box_item">
@@ -432,7 +433,7 @@
 							150 000 <span class="rub">руб.</span>
 						</div>
 						<div class="firms_tabs_box_last">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 					<div class="firms_tabs_box_item">
@@ -444,7 +445,7 @@
 							150 000 <span class="rub">руб.</span>
 						</div>
 						<div class="firms_tabs_box_last">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 				</div>
@@ -458,7 +459,7 @@
 							150 000 <span class="rub">руб.</span>
 						</div>
 						<div class="firms_tabs_box_last">
-							<button class="btn btn_small">Заказать</button>
+							<button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Заказать</button>
 						</div>
 					</div>
 				</div>
@@ -469,7 +470,7 @@
 				На сайте представлены не все готовые фирмы! Позвоните нам, и мы найдем ВАШУ ФИРМУ! <br>Ассортимент готовых ООО пополняется каждые 2-3 дня!
 			</div>
 
-			<button class="btn call_back">Позвонить</button>
+			<button class="btn call_back" data-toggle="modal" data-target="#modal_contact">Позвонить</button>
 
 		</div>
 
@@ -516,7 +517,7 @@
 					<div class="how_work_item_text">
 						<span class="how_work_item_nubber">1</span>
 						<span>Вы звоните или оставляете заявку</span>
-						<p><button class="btn btn_small">Оставить заявку</button></p>
+						<p><button class="btn btn_small" data-toggle="modal" data-target="#modal_contact">Оставить заявку</button></p>
 					</div>
 				</div>
 				<div class="how_work_item">
@@ -668,7 +669,7 @@
 		</div>
 
 		<div class="map_box">
-			<img src="img/map.png" alt=""/>
+			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=ZD3bfEIrrCy99pWd_Oa7kdrhWrXkl-qA&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=false"></script>
 		</div>
 
 	</section>
@@ -683,9 +684,7 @@
 
 	<div class="container_center">
 
-		<span class="float_left">© Купить ООО 2014-2016</span>
-
-		<a href="#" class="float_right">Developed by Osetskiy Group</a>
+		<span class="float_left">© Купить ООО 2016</span>
 	
 	</div>
 
@@ -704,13 +703,13 @@
 					<legend class="form__legend">Оставьте заявку <br>на получение ООО</legend>
 					<div class="form__subtitle">Оставьте свои контактные данные и мы с Вами свяжемся!</div>
 					<div class="form__row">
-						<input class="form__input" type="text" placeholder="Имя" />
+						<input class="form__input" type="text" placeholder="Имя*" required />
 					</div>
 					<div class="form__row">
-						<input class="form__input" type="text" placeholder="Телефон" />
+						<input class="form__input phone" type="text" placeholder="Телефон*" required />
 					</div>
 					<div class="form__row">
-						<input class="btn" type="submitt" value="Заказать" />
+						<button type="submit" class="btn">Заказать</button>
 					</div>
 				</form>
 				<!-- End form_ -->
